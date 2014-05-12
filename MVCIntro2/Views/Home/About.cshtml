@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "About";
+   
+}
+@foreach (var dog in Model)
+{
+    <h1>@dog.Name</h1>
+    @dog.Owner
+    @dog.Legs
+    <br/>
+}
